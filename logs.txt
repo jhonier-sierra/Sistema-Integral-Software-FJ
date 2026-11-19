@@ -1,0 +1,24 @@
+[2026-11-19 08:51:50] [EVENTO] Cliente registrado: 1098765432
+[2026-11-19 08:51:50] [EVENTO] Operacion 1 realizada correctamente.
+[2026-11-19 08:51:50] [EVENTO] Cliente registrado: 1023456789
+[2026-11-19 08:51:50] [EVENTO] Operacion 2 realizada correctamente.
+[2026-11-19 08:51:50] [ERROR] Registro de cliente con correo invalido | Tipo: DatosInvalidosError | Detalle: El correo electronico no tiene un formato valido.
+[2026-11-19 08:51:50] [EVENTO] Servicio registrado: S001
+[2026-11-19 08:51:50] [EVENTO] Operacion 4 realizada correctamente.
+[2026-11-19 08:51:50] [EVENTO] Servicio registrado: S002
+[2026-11-19 08:51:50] [EVENTO] Operacion 5 realizada correctamente.
+[2026-11-19 08:51:50] [EVENTO] Servicio registrado: S003
+[2026-11-19 08:51:50] [EVENTO] Operacion 6 realizada correctamente.
+[2026-11-19 08:51:50] [EVENTO] Reserva creada: R001
+[2026-11-19 08:51:50] [EVENTO] Operacion 7 realizada correctamente.
+[2026-11-19 08:51:50] [EVENTO] Reserva confirmada: R001
+[2026-11-19 08:51:50] [EVENTO] Operacion 8 realizada correctamente.
+[2026-11-19 08:51:50] [EVENTO] Reserva procesada: R001
+[2026-11-19 08:51:50] [EVENTO] Operacion 9 realizada correctamente.
+[2026-11-19 08:51:51] [ERROR] Busqueda de cliente inexistente | Tipo: ClienteNoEncontradoError | Detalle: No se encontro el cliente 9999999999.
+[2026-11-19 08:51:51] [ERROR] Creacion de reserva con duracion invalida | Tipo: DatosInvalidosError | Detalle: La duracion debe ser mayor que cero.
+[2026-11-19 08:51:51] [EVENTO] Reserva creada: R003
+[2026-11-19 08:51:51] [ERROR] Intento de reservar un servicio no disponible | Tipo: ServicioNoDisponibleError | Detalle: No es posible confirmar la reserva: el servicio no esta disponible.
+[2026-11-19 08:51:51] [EVENTO] Reserva creada: R004
+[2026-11-19 08:51:51] [EVENTO] Reserva cancelada: R004
+[2026-11-19 08:51:51] [EVENTO] Operacion 13 realizada correctamente.
